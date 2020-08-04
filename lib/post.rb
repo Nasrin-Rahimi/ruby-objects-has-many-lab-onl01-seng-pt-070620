@@ -15,6 +15,7 @@ class Post
   
   def author_name
     self.author != nil ? self.author.name : nil
+    # OR author.name if author
   end
   
 end
